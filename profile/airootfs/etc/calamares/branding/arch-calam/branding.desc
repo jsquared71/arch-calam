@@ -1,0 +1,11 @@
+branding:
+  name: arch-calam
+  version: 1.0
+  strings:
+    productName: Arch Calam
+    shortProductName: Arch Calam
+    version: Live Installer
+    shortVersion: Live Installer
+    welcomeStyleCalamares: true
+  slideshow: slideshow.qml
+  style: stylesheet.qss
