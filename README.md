@@ -37,3 +37,16 @@ Arch-Calam provides an Arch Linux live ISO with a graphical XFCE session, the Ca
 - Build verification is performed by running `./build.sh` from the `profile` directory on an Arch-based host with `archiso` and
   `mkinitcpio-archiso` installed.
 - The script will fail if `mkarchiso` is unavailable; install the dependencies first when testing in fresh environments.
+
+## Uploading to your own repository
+1. Create an empty Git repository on your hosting platform (for example, a new GitHub project).
+2. Add the new remote inside this workspace:
+   ```bash
+   git remote add origin git@github.com:<your-username>/<your-repo>.git
+   ```
+3. Push the existing branch and history:
+   ```bash
+   git push -u origin work
+   ```
+   Replace `work` with another branch name if you prefer; the upstream tracking reference is set automatically by `-u`.
+4. Open a pull request or set the branch as default in your hosting platform as desired.
