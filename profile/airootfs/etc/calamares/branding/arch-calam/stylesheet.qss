@@ -1,0 +1,10 @@
+QWidget {
+  font-family: "Noto Sans", "Sans";
+}
+#title {
+  color: #1793d1;
+  font-size: 22pt;
+}
+#text {
+  font-size: 12pt;
+}

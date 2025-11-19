@@ -1,0 +1,72 @@
+# Base system
+base
+linux
+linux-firmware
+mkinitcpio
+mkinitcpio-archiso
+archiso
+sudo
+bash-completion
+nano
+vim
+which
+
+# Networking
+networkmanager
+openssh
+wget
+curl
+
+# Filesystems and storage
+btrfs-progs
+dosfstools
+e2fsprogs
+gptfdisk
+parted
+ntfs-3g
+lvm2
+smartmontools
+
+# Repair tools
+cifs-utils
+ddrescue
+gdisk
+gparted
+os-prober
+photorec
+rsync
+testdisk
+timeshift
+
+# Boot utilities
+grub
+refind-efi
+efibootmgr
+
+# Desktop environment
+xorg-server
+xorg-xinit
+xfce4
+xfce4-goodies
+lightdm
+lightdm-gtk-greeter
+mesa
+pipewire
+pipewire-alsa
+pipewire-pulse
+pavucontrol
+
+# Installer
+calamares
+
+# Extras
+firefox
+git
+neofetch
+htop
+arandr
+
+# Localization
+man-db
+man-pages
+tzdata
