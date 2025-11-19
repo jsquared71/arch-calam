@@ -39,14 +39,20 @@ Arch-Calam provides an Arch Linux live ISO with a graphical XFCE session, the Ca
 - The script will fail if `mkarchiso` is unavailable; install the dependencies first when testing in fresh environments.
 
 ## Uploading to your own repository
+You can push this workspace to any Git hosting service. Pick the transport (SSH or HTTPS) that matches your account setup.
+
 1. Create an empty Git repository on your hosting platform (for example, a new GitHub project).
-2. Add the new remote inside this workspace:
+2. If you want to use SSH, ensure your public key is registered with the host (e.g., GitHub "SSH and GPG keys"). Then add the remote:
    ```bash
    git remote add origin git@github.com:<your-username>/<your-repo>.git
    ```
-3. Push the existing branch and history:
+   If you prefer HTTPS or do not have SSH keys configured, use:
+   ```bash
+   git remote add origin https://github.com/<your-username>/<your-repo>.git
+   ```
+3. Push the existing branch and history to the new remote:
    ```bash
    git push -u origin work
    ```
-   Replace `work` with another branch name if you prefer; the upstream tracking reference is set automatically by `-u`.
-4. Open a pull request or set the branch as default in your hosting platform as desired.
+   Replace `work` with your current branch if different. The `-u` flag sets the upstream so future `git push` and `git pull` commands work without additional arguments.
+4. Verify the remote and default branch on your hosting platform. Create a pull request or set the uploaded branch as the default/main branch as needed.
