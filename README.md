@@ -1,3 +1,3 @@
 Arch-Calam
 
-A live ISO ucing the Calamares installer.
+A live ISO using the Calamares installer.
