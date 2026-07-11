@@ -1,0 +1,37 @@
+---
+componentName: arch
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: "900px,600px"
+windowPlacement: center
+sidebar: widget
+navigation: widget
+strings:
+  productName: "Arch Linux"
+  shortProductName: "Arch"
+  version: "Rolling Release"
+  shortVersion: "Rolling"
+  versionedName: "Arch Linux Rolling Release"
+  shortVersionedName: "Arch Linux"
+  bootloaderEntryName: "Arch Linux"
+  productUrl: "https://archlinux.org/"
+  supportUrl: "https://wiki.archlinux.org/"
+  knownIssuesUrl: ""
+  releaseNotesUrl: "https://archlinux.org/news/"
+  donateUrl: "https://archlinux.org/donate/"
+images:
+  productIcon: "arch-mark.svg"
+  productLogo: "arch-mark.svg"
+  productWelcome: "arch-welcome.svg"
+style:
+  SidebarBackground: "#172A3A"
+  SidebarText: "#FFFFFF"
+  SidebarTextCurrent: "#FFFFFF"
+  SidebarBackgroundCurrent: "#1793D1"
+slideshow: "show.qml"
+slideshowAPI: 2
+uploadServer:
+  type: none
+  url: ""
+  sizeLimit: 0

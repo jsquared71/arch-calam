@@ -1,0 +1,7 @@
+polkit.addRule(function(action, subject) {
+    if (action.id === "org.freedesktop.policykit.exec" &&
+        subject.user === "liveuser" &&
+        action.lookup("program") === "/usr/bin/calamares") {
+        return polkit.Result.YES;
+    }
+});

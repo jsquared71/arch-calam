@@ -1,0 +1,32 @@
+# Installer
+calamares
+ckbcomp
+polkit
+rsync
+sudo
+
+# KDE Plasma live and installed desktop
+ark
+dolphin
+konsole
+kate
+plasma-meta
+plasma-nm
+sddm
+xorg-server
+
+# Networking and common hardware support
+bluez
+bluez-utils
+linux-firmware
+networkmanager
+sof-firmware
+
+# Installed-system boot and filesystems
+btrfs-progs
+dosfstools
+e2fsprogs
+efibootmgr
+grub
+mkinitcpio
+os-prober
